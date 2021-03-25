@@ -6,6 +6,5 @@ interface Props {
 }
 
 export const Button = (props: any): ReactElement => {
-    console.log(props);
     return <ButtonWrapper {...props}>{props.children}</ButtonWrapper>;
 };
