@@ -33,7 +33,7 @@ export type BoxProps = SpaceProps &
     ShadowProps &
     GridProps &
     TypographyProps;
-    
+
 export const Box = styled.div<BoxProps>`
     ${compose(
         space,
