@@ -103,12 +103,12 @@ const colors = {
     blue,
     orange,
     red,
-    primary: wine['800'],
+    primary: '#e14f28',
     success: green['600'],
     info: blue['500'],
     alert: orange['300'],
     error: red['700'],
-    anaColor: "purple"
+    anaColor: 'purple',
 };
 
 export default colors;

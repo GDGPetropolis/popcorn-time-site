@@ -6430,11 +6430,6 @@ node-fetch@2.6.0:
   resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.0.tgz#e633456386d4aa55863f676a7ab0daa8fdecb0fd"
   integrity sha512-8dG4H5ujfvFiqDmVu9fQ5bOHUC15JMjMY/Zumv26oOvvVJjM67KF8koCWIabKQ1GJIa9r2mMZscBq/TbdOcmNA==
 
-node-fetch@^2.2.0:
-  version "2.6.1"
-  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.1.tgz#045bd323631f76ed2e2b55573394416b639a0052"
-  integrity sha512-V4aYg89jEoVRxRb2fJdAg8FHvI7cEyYdVAh94HH0UIK8oJxUfkjlDQN9RbMx+bEjP7+ggMiFRprSti032Oipxw==
-
 node-html-parser@^1.2.19:
   version "1.2.20"
   resolved "https://registry.yarnpkg.com/node-html-parser/-/node-html-parser-1.2.20.tgz#37e9ebc627dbe3ff446eea4ac93e3d254b7c6ee4"
@@ -6968,13 +6963,6 @@ pnp-webpack-plugin@1.6.4:
   integrity sha512-7Wjy+9E3WwLOEL30D+m8TSTF7qJJUJLONBnwQp0518siuMxUQUbgZwssaFX+QKlZkjHZcw/IpZCt/H0srrntSg==
   dependencies:
     ts-pnp "^1.1.6"
-
-popcorn-api@^1.1.1:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/popcorn-api/-/popcorn-api-1.1.1.tgz#5b3e609f0a7bdb2cdd3af83cb3bf115ea0315886"
-  integrity sha512-nZ4hrAxWUcNZz4R1R+vu8YA0XjuBfWmV1oOMrOhZdSDV9s2bnNywSih3vgvrw4r/s3hSvNOiK2CrVzZ6eZZNow==
-  dependencies:
-    node-fetch "^2.2.0"
 
 posix-character-classes@^0.1.0:
   version "0.1.1"
