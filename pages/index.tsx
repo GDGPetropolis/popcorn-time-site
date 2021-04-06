@@ -1,9 +1,8 @@
-import { useEffect } from 'react';
 import Head from 'next/head';
 import { Box } from 'components/Box';
 import { Text } from 'components/Text';
-import styled from 'styled-components';
 import { Button } from 'components/Button';
+import { LightCard } from 'components/LightCard';
 
 export default function Home() {
     return (
@@ -19,6 +18,14 @@ export default function Home() {
                     Clique Aqui{' '}
                 </Text>
             </Button>
+            <LightCard
+                icon={'icon'}
+                title={'Título'}
+                description={
+                    'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                }
+                backgroundColor={'red.900'}
+            />
         </Box>
     );
 }
