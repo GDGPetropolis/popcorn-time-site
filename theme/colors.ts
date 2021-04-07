@@ -95,7 +95,7 @@ const red = {
 const colors = {
     transparent: 'transparent',
     current: 'currentColor',
-    black: '#000000',
+    black: '#121212',
     white: '#FFFFFF',
     wine,
     gray,
@@ -108,7 +108,6 @@ const colors = {
     info: blue['500'],
     alert: orange['300'],
     error: red['700'],
-    anaColor: 'purple',
 };
 
 export default colors;
