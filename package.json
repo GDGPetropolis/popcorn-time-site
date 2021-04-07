@@ -2,7 +2,7 @@
     "name": "popcorn-time-site",
     "version": "0.1.0",
     "private": false,
-    "description": "New frontend website for popcorn-time",
+    "description": "#New frontend website for popcorn-time",
     "scripts": {
         "dev": "next dev",
         "build": "next build",
