@@ -14,10 +14,10 @@ export type TextProps = TextPropsStyled & {
 } & React.AnchorHTMLAttributes<HTMLAnchorElement>;
 
 export const TextStyled = styled(Box).attrs((props) => ({
-    color: props.color || 'textGray',
+    color: props.color || 'white',
 }))<TextProps>`
     ${typography} ::selection {
-        background-color: ${theme('resume.textLightGray')};
+        background-color: ${theme('primary')};
     }
 `;
 
