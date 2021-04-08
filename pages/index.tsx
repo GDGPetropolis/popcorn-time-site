@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import { Box } from 'components/Box';
 import { Menu } from 'components/Template/Menu';
+import { Header } from 'components/Template/Header';
 
 export default function Home() {
     return (
@@ -11,6 +12,7 @@ export default function Home() {
             </Head>
             <Box>
                 <Menu />
+                <Header />
             </Box>
         </Box>
     );
