@@ -3,6 +3,7 @@ import { Text } from 'components/Text';
 import { HeaderWrapper } from './styles';
 import { Button } from 'components/Button';
 import { movies } from 'popcorntime';
+import { WindowsFilled } from '@ant-design/icons';
 
 interface Props {}
 
@@ -32,7 +33,8 @@ export const Header = (props: Props) => {
             </Text>
             <Button mt='20px' onClick={() => alert('clique')}>
                 <Text color='white' fontSize='25px' fontWeight='medium'>
-                    Download Popcorn Time 4.4
+                    <WindowsFilled style={{ fontSize: '28px' }} /> Download
+                    Popcorn Time 4.4
                 </Text>
             </Button>
             <Text

@@ -10,6 +10,8 @@ export const Menu = (props: Props) => {
             display='flex'
             alignItems='center'
             justifyContent='space-between'
+            position='absolute'
+            z-index='tooltip'
         >
             <Box
                 as='img'
