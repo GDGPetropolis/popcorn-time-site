@@ -35,7 +35,7 @@ const gray = {
     400: '#909295',
     500: '#76787C',
     600: '#5C5E63',
-    700: '#434549',
+    700: '#585858',
     800: '#292B30',
     900: '#0F1117',
 };
@@ -95,7 +95,7 @@ const red = {
 const colors = {
     transparent: 'transparent',
     current: 'currentColor',
-    black: '#000000',
+    black: '#121212',
     white: '#FFFFFF',
     wine,
     gray,
@@ -108,7 +108,6 @@ const colors = {
     info: blue['500'],
     alert: orange['300'],
     error: red['700'],
-    anaColor: 'purple',
 };
 
 export default colors;
