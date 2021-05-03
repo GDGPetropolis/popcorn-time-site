@@ -2,6 +2,7 @@ import Head from 'next/head';
 import { Box } from 'components/Box';
 import { Menu } from 'components/Template/Menu';
 import { Header } from 'components/Template/Header';
+import { BannerMovies } from 'components/Template/BannerMovies';
 
 export default function Home() {
     return (
@@ -13,6 +14,7 @@ export default function Home() {
             <Box>
                 <Menu />
                 <Header />
+                <BannerMovies />
             </Box>
         </Box>
     );
